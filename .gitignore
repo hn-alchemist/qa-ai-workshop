@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebook / training outputs
+.ipynb_checkpoints/
+qa-lora/
+*.csv
+test_cases.md
+
+# OS
+.DS_Store
