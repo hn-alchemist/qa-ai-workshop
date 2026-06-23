@@ -1,12 +1,42 @@
-# Sample requirements / user stories — paste any of these into the tool to try it.
+# Sample requirements / user stories — paste any into the test-case generator (Notebook 02 or 06).
+# Mix of easy, realistic, and deliberately tricky ones so you can see how the AI copes.
 
+# ---------- Authentication & accounts ----------
+As a user, I can log in with a valid email and password.
 As a user, I can reset my password via an email link that expires in 15 minutes.
-As a shopper, I can add up to 10 items to my cart and see the running total update.
-As a user, I can upload a profile picture (JPG/PNG only, max 5 MB).
-As an admin, I can deactivate a user account, after which that user cannot log in.
-As a user, I can search products by keyword and filter results by price range.
-As a customer, I can apply a discount coupon at checkout; expired coupons are rejected.
 As a user, I can enable two-factor authentication using an authenticator app.
+As an admin, I can deactivate a user account, after which that user cannot log in.
+As a user, I can update my registered email address and must verify the new one.
+
+# ---------- E-commerce ----------
+As a shopper, I can add up to 10 items to my cart and see the running total update.
+As a customer, I can apply a discount coupon at checkout; expired coupons are rejected.
 As a user, I can pay with a credit card; invalid card numbers are rejected with a clear error.
+As a shopper, I can filter products by price range and sort by rating.
+As a customer, I can request a refund within 30 days of purchase.
+
+# ---------- Content & files ----------
+As a user, I can upload a profile picture (JPG/PNG only, max 5 MB).
 As a reader, I can leave a comment (max 500 characters) on an article when logged in.
 As a user, I can export my transaction history for a selected date range as a CSV file.
+As an editor, I can schedule a blog post to publish at a future date and time.
+
+# ---------- Tricky / ambiguous on purpose (great for discussion) ----------
+# These are vague or under-specified. Watch what the AI assumes — and what it misses.
+As a user, I want the app to be fast.
+Users should be able to search.
+The system must handle a lot of traffic.
+As a user, I can transfer money to another account.
+The form should validate the input properly.
+
+# ---------- High-stakes (think security, money, privacy) ----------
+As a user, I can withdraw funds to my linked bank account, up to a daily limit of 1000.
+As an admin, I can grant or revoke another user's permissions.
+As a user, I can delete my account and all my personal data (GDPR right to erasure).
+As a patient, I can view my medical records but cannot edit them.
+
+# ---------- Gherkin-style input (test multi-line handling) ----------
+# Paste the block below (use the text box, or triple quotes in code):
+# Given the customer has items in their cart
+# When they proceed to checkout without being logged in
+# Then they should be prompted to log in or check out as guest

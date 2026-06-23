@@ -1,0 +1,24 @@
+# Sample bug reports — paste into the Custom QA-Bot (Notebook 03) and watch it
+# demand missing details and rewrite them into a proper format.
+# They range from terrible to almost-good on purpose.
+
+# ---------- Terrible (vague) ----------
+App crashes sometimes.
+Login broken.
+It doesn't work on my phone.
+The page is slow.
+Payment failed.
+
+# ---------- Mediocre (some info, still gaps) ----------
+When I click submit nothing happens. Using Chrome.
+Cart total is wrong after I remove an item. Sometimes.
+Got an error on checkout yesterday, didn't note the message.
+Search returns weird results for short words.
+
+# ---------- Almost good (find the last missing pieces) ----------
+On the checkout page (build 4.2.1, Safari 17, iOS), applying coupon SAVE20 shows
+"total updated" but the displayed total does not change. Expected the total to drop by 20%.
+
+# ---------- Discussion prompt ----------
+# Ask the QA-Bot: "What is the single most useful piece of information missing from each report?"
+# Then ask it to produce a reusable bug-report template for our team.

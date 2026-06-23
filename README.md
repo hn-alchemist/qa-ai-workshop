@@ -248,9 +248,17 @@ qa-ai-workshop/
 │   ├── requirements.txt
 │   └── README.md
 └── data/
-    ├── sample_requirements.txt        ← requirements to try the tool on
+    ├── sample_requirements.txt        ← many requirements to try (easy, tricky, high-stakes)
+    ├── sample_bug_reports.txt         ← bug reports to feed the QA-Bot (Notebook 03)
+    ├── sample_questions.txt           ← questions for the RAG notebook (Notebook 05)
+    ├── playground_challenges.md       ← ⭐ experiments to think smarter (start here to explore)
     └── qa_finetune_dataset.jsonl      ← 12 example pairs for the fine-tuning notebook
 ```
+
+> 🎮 **Want to actually learn, not just run cells?** Open
+> [`data/playground_challenges.md`](data/playground_challenges.md) — it has graded challenges
+> (warm-up → advanced) and discussion questions that build real intuition for where AI helps
+> QA and where it fails.
 
 ---
 

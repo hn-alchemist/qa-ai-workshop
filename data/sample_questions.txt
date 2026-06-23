@@ -1,0 +1,22 @@
+# Sample questions — paste into the RAG notebook (Notebook 05) "Ask Your Test Docs".
+# Some are answerable from the built-in sample docs; some are NOT (on purpose) — a good
+# RAG system should say "I couldn't find this" instead of making something up.
+
+# ---------- Answerable from the sample docs ----------
+What counts as an S1 bug?
+What is the difference between a smoke test and a regression test?
+Can we use real customer data in test environments?
+What must every bug report include?
+When does a new defect block a release?
+What is our Definition of Done?
+
+# ---------- NOT in the docs (test for honesty / hallucination) ----------
+What is our policy on testing on weekends?
+How many testers are on the payments team?
+What is the company VPN password?
+Which test automation tool do we use?
+
+# ---------- Think-smarter prompts ----------
+# - Ask the same question two ways (formal vs casual) — does the answer change?
+# - Ask a question that needs combining TWO documents (e.g. "If a regression finds an
+#   S1 bug using customer data, what two policies did we just break?")
