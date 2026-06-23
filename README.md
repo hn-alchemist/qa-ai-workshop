@@ -11,6 +11,17 @@ Built for a mixed room: **juniors** get a real tool running in ~10 minutes (no c
 
 ---
 
+## Important — please read first (learning use & data)
+
+This kit is for **learning and experimentation first**. It is not an official company tool, and it comes with no guarantees. By using it, you accept responsibility for how you use it and what data you put into it.
+
+- Use **only non-confidential, made-up, or anonymized examples**. Do **not** paste real customer data, personal data, credentials, or anything confidential or under NDA.
+- The notebooks run on **third-party free cloud services** (Google Colab, Hugging Face). Any text you enter is processed on their servers, outside company control.
+- AI output can be **wrong or incomplete**. Always review generated test cases yourself before relying on them.
+- If you are unsure whether something is safe to use here, **check with your security/compliance team first**.
+
+---
+
 ## 📑 Table of contents
 1. [Is this running on my computer?](#-is-this-running-on-my-computer)
 2. [The free-cloud stack](#️-the-free-cloud-stack)
