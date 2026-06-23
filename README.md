@@ -100,6 +100,14 @@ Open each one in Colab (click the link). Do them in order.
 | 03 | Custom QA-Bot | Juniors+ | 20 min | Shape the model into *your team's* QA assistant via prompting | [Open in Colab](https://colab.research.google.com/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/03_custom_qa_assistant.ipynb) |
 | 04 | Fine-tune (LoRA) | Experts | 60 min | **Train** a model on QA data with LoRA — free GPU | [Open in Colab](https://colab.research.google.com/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/04_finetune_lora.ipynb) |
 
+### Advanced track (for experts — same simple journey, more depth)
+
+| # | Notebook | What it does | Open |
+|---|----------|--------------|------|
+| 05 | Ask Your Test Docs (RAG) | Retrieval-Augmented Generation: answer questions from *your* docs, with citations — the core technique behind real AI assistants | [Open in Colab](https://colab.research.google.com/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/05_rag_ask_your_docs.ipynb) |
+| 06 | Test cases at scale | Validation + auto-retry, **batch** a whole backlog, **export** to Jira/TestRail CSV and Gherkin `.feature` files | [Open in Colab](https://colab.research.google.com/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/06_batch_and_export.ipynb) |
+| 07 | Measure quality (AI judge) | Score test cases objectively with an **LLM-as-judge**; compare prompts, models, or fine-tunes with numbers | [Open in Colab](https://colab.research.google.com/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/07_evaluate_quality.ipynb) |
+
 ---
 
 ## ⚠️ "Colab is loading old code" — how to fix
