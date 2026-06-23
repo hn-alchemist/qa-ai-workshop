@@ -20,6 +20,8 @@ This kit is for **learning and experimentation first**. It is not an official co
 - AI output can be **wrong or incomplete**. Always review generated test cases yourself before relying on them.
 - If you are unsure whether something is safe to use here, **check with your security/compliance team first**.
 
+A full [Security Assessment](SECURITY_ASSESSMENT.md) is included in this repo covering data flow, risks, and recommendations.
+
 ---
 
 ## 📑 Table of contents
