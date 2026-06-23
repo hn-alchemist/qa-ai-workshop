@@ -11,6 +11,29 @@ Built for a mixed room: **juniors** get a real tool running in ~10 minutes (no c
 
 ---
 
+## What is this?
+
+This is a small, self-contained **learning kit** that helps a software QA team get hands-on with AI — safely, for free, and without installing anything. You open a link, it runs in your browser on Google's free cloud, and you work through short interactive lessons that solve real QA problems.
+
+It is **not** a finished company product. Think of it as a guided playground: a place to learn what AI can and can't do for testing, so the team can make informed decisions about using it for real.
+
+## Where can you use it?
+
+Practical things you can do with the kit today (using non-confidential examples):
+
+- **Draft test cases faster** — paste a requirement or user story, get positive, negative, edge, and boundary cases to review and refine.
+- **Improve bug reports** — turn a vague report into a clear, standard one.
+- **Build a team QA assistant** — shape the AI with your own standards, severity scale, and definition of done.
+- **Answer questions from your own docs** — point it at QA policies/wikis and get cited answers (the RAG notebook).
+- **Generate test cases at scale** — batch a whole backlog and export to Jira/TestRail CSV or Gherkin `.feature` files.
+- **Measure quality objectively** — score and compare outputs with an AI judge.
+- **Learn AND go deep** — juniors use point-and-click; experts can fine-tune and evaluate models.
+
+**Good fit for:** learning sessions, internal upskilling, prototyping ideas, and speeding up the *first draft* of QA work.
+**Not a fit for:** anything involving real customer data, PII, or confidential material, and it is not a replacement for tester judgement (always review the output).
+
+---
+
 ## Important — please read first (learning use & data)
 
 This kit is for **learning and experimentation first**. It is not an official company tool, and it comes with no guarantees. By using it, you accept responsibility for how you use it and what data you put into it.
@@ -28,13 +51,14 @@ A full [Security Assessment](SECURITY_ASSESSMENT.md) is included in this repo co
 1. [Is this running on my computer?](#-is-this-running-on-my-computer)
 2. [The free-cloud stack](#️-the-free-cloud-stack)
 3. [Quick start (step by step)](#-quick-start-step-by-step)
-4. [The notebooks (learning path)](#-the-notebooks-learning-path)
-5. [⚠️ "Colab is loading old code" — how to fix](#️-colab-is-loading-old-code--how-to-fix)
-6. [Common errors & fixes](#-common-errors--fixes)
-7. [The shareable web app](#-the-shareable-web-app-hugging-face-space)
-8. [Workshop run-of-show](#️-workshop-run-of-show-2-hours)
-9. [What's in this kit](#-whats-in-this-kit)
-10. [The big lessons](#-the-big-lessons-for-the-community)
+4. [How to view and run the notebooks](#-how-to-view-and-run-the-notebooks)
+5. [The notebooks (learning path)](#-the-notebooks-learning-path)
+6. [⚠️ "Colab is loading old code" — how to fix](#️-colab-is-loading-old-code--how-to-fix)
+7. [Common errors & fixes](#-common-errors--fixes)
+8. [The shareable web app](#-the-shareable-web-app-hugging-face-space)
+9. [Workshop run-of-show](#️-workshop-run-of-show-2-hours)
+10. [What's in this kit](#-whats-in-this-kit)
+11. [The big lessons](#-the-big-lessons-for-the-community)
 
 ---
 
@@ -86,6 +110,22 @@ The actual work happens on Google's computer when you open one in Colab.
 
 > 💡 **Tip for juniors:** In Notebook 02, after the model loads, there's an **⭐ Easy mode** cell
 > with a **text box and a button** — just type a requirement and click. No coding at all.
+
+---
+
+## 👀 How to view and run the notebooks
+
+There are three ways to open a notebook, depending on what you want to do:
+
+| I want to… | Use | Link style |
+|------------|-----|-----------|
+| **Run it** (the main use) | **Google Colab** | The "Open in Colab" links below — always works |
+| **Just read it** on the web | **nbviewer** | `https://nbviewer.org/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/<name>.ipynb` |
+| Quick peek on GitHub | GitHub preview | Click the file in the repo |
+
+> ℹ️ **Note about GitHub's preview:** GitHub sometimes shows **"Unable to render code block"** when previewing a notebook. This is a known, cosmetic issue on GitHub's side — **the notebook is fine and runs perfectly in Colab.** If you just want to *read* a notebook in the browser, use the **nbviewer** link (it never has this problem). If GitHub still shows it, hard-refresh the page (**Cmd/Ctrl + Shift + R**).
+>
+> Example nbviewer link: <https://nbviewer.org/github/hn-alchemist/qa-ai-workshop/blob/main/notebooks/02_test_case_generator.ipynb>
 
 ---
 
