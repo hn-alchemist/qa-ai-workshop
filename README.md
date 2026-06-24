@@ -260,6 +260,14 @@ qa-ai-workshop/
 > (warm-up → advanced) and discussion questions that build real intuition for where AI helps
 > QA and where it fails.
 
+### How the `data/` files work (important)
+
+When you open a notebook in **Colab, only that notebook loads** — the `data/` folder does **not** come with it. That's by design, and nothing is broken:
+
+- **The `data/` files live here in the GitHub repo.** Open them in your **browser** to read them and **copy-paste** examples into the notebook's text box. The "Try this" links inside the notebooks point straight to them.
+- **You do not need to download or upload anything** for the normal lessons — notebooks 02 and 05 already include sample data inside them.
+- **The one exception:** the fine-tuning notebook (04) needs the training dataset, so it **downloads it automatically** from this repo. No manual upload.
+
 ---
 
 ## 🧠 The big lessons for the community
